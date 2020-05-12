@@ -6,9 +6,9 @@ import SearchPanel from './components/search-panel';
 
 const App = () => {
   const todoData = [
-    { label: 'drink coffee', important: false },
-    { label: 'make awesome app', important: true },
-    { label: 'have a lunch', important: false }
+    { label: 'drink coffee', important: false, id: 1 },
+    { label: 'make awesome app', important: true, id: 2 },
+    { label: 'have a lunch', important: false, id: 3 }
   ];
 
   return (
