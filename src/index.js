@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import AppHeader from './components/app-header';
 import TodoList from './components/todo-list';
 import SearchPanel from './components/search-panel';
+import './index.css';
 
 const App = () => {
   const todoData = [
@@ -20,4 +21,4 @@ const App = () => {
   );
 }
 
-ReactDOM.render(<App/>, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));

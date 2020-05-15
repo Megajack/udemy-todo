@@ -1,0 +1,12 @@
+.search-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.search-wrapper input {
+  padding: 5px 10px;
+  border: 1px solid lightgray;
+  max-width: 170px;
+}

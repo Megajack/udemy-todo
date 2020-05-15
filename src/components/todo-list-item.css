@@ -1,0 +1,13 @@
+.todo-list-item {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.todo-list-item .todo-list-item-label {
+  flex-grow: 1;
+}
+
+.todo-list-item .btn {
+  margin-left: 5px;
+}
