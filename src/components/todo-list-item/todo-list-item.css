@@ -4,7 +4,12 @@
   flex-wrap: wrap;
 }
 
+.todo-list-item.done .todo-list-item-label {
+  text-decoration: line-through;
+}
+
 .todo-list-item .todo-list-item-label {
+  cursor: pointer;
   flex-grow: 1;
 }
 
