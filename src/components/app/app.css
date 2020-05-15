@@ -1,5 +1,5 @@
-#root {
+.todo-app {
   max-width: 400px;
-  margin: 0 auto;
+  margin: 2rem auto 0;
   padding: 0 20px;
 }
