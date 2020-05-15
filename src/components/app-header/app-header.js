@@ -3,7 +3,7 @@ import './app-header.css';
 
 const AppHeader = ({toDo, done}) => {
   return (
-    <div class="app-header d-flex">
+    <div className="app-header d-flex">
       <h1>Todo list</h1>
       <h2>{ toDo } more to do, { done } done</h2>
     </div>

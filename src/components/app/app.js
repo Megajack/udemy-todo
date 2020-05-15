@@ -16,7 +16,7 @@ const App = () => {
   return (
     <div className="todo-app">
       <AppHeader toDo={1} done={3} />
-      <div class="d-flex search-wrapper">
+      <div className="d-flex search-wrapper">
         <SearchPanel />
         <ItemStatusFilter />
       </div>
